@@ -1,0 +1,54 @@
+#quiz,
+#finish,
+#Correct,
+#inCorrect {
+    display: none;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+  
+}
+
+.close {
+    cursor: pointer;
+}
+
+.text-spec {
+    color: #653383
+}
+
+.bg-spec {
+    background-color: #653383
+}
+
+button {
+    cursor: pointer;
+}
+
+.alert {
+    display: none;
+}
+
+@media screen and (max-width:600px) 
+{
+    .mom{
+        width: 100% !important;
+        /* background-color: #edf4f8 !important; */
+    }
+    .ghg{
+        /* height: auto !important; */
+    }
+    
+}
+
+.ghg{
+    /* height: 100vh !important; */
+
+}
